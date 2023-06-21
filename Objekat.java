@@ -30,6 +30,11 @@ public abstract class Objekat {
 		this.y+=pomeraj;	
 	}
 	
+	public double rastojanje(Objekat o) {
+		double dist=Math.sqrt(Math.pow(o.x-this.x,2)+Math.pow(o.y-this.y, 2));
+		return dist;
+	}
+	
 	public abstract void paint(Graphics g);
 	
 }
