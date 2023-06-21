@@ -1,4 +1,4 @@
-# CosmosSimulator
+# CosmosSimulatorGame
 ------------------------
 ENG
 
