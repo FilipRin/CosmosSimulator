@@ -8,7 +8,9 @@ ENG
 
 • *A comet or kometa* is a gray celestial body. The comet is drawn around the center as a regular pentagon with random orientation.
 
-• *The universe or svemir* is an active canvas (Canvas) with a black (BLACK) background that contains an arbitrary number of celestial bodies. It is possible to add a celestial body. Every 100 milliseconds, space plots all contained celestial bodies, then simulates movement through space by shifting the y-coordinate of all celestial bodies by 5 pixels. It is possible to start and permanently end space activity.
+• *A planet or planeta* is a celestial body that spawns with one of the following colors: GREEN, BLUE, YELLOW, or RED, each with a 25% chance. Additionally, a planet may contain a ring with a 25% probability. The planet is drawn as a circle around the center of the given color. If it contains a ring, it is drawn as a circle around the same center with twice the radius.
+
+• *The universe or svemir* is an active canvas (Canvas) with a black background that contains an arbitrary number of celestial bodies. It is possible to add a celestial body. Every 100 milliseconds, space plots all contained celestial bodies, then simulates movement through space by shifting the y-coordinate of all celestial bodies by 5 pixels. It is possible to start and permanently end space activity.
 
 • *An active celestial body generator or aktivni generator nebeskih tela* is created with a given universe. Every 900 milliseconds, the generator creates a comet whose x-coordinate of the center is a random value between 0 and 200, y-coordinate of the center is 0, and the radius of the described circle is a random value between 10 and 30, and then adds it to space. It is possible to start and permanently end a generator activity.
 
@@ -28,7 +30,9 @@ SRB
 • *Комета* је небеско тело сиве боје (GRAY). Комета се око центра
 исцртава као правилни петоугао са насумичном оријентацијом.
 
-• *Свемир* је активно платно (Canvas) са црном (BLACK) позадином
+• *Планета* је небеско тело које се ствара са једном од следећих боја: зелена (GREEN), плава (BLUE), жута (YELLOW) или црвена (RED), свака са 25% вероватноће. Додатно планета може садржати прстен са 25% вероватноће. Планета се ицртава као круг око центра задате боје. Уколико садржи прстен, он се исцртава као кружница око истог центра дупло већег полупречника.
+
+• *Свемир* је активно платно (Canvas) са црном позадином
 које садржи произвољан број небеских тела. Могуће је додати
 небеско тело. На сваких 100 милисекунди, свемир исцртава сва
 садржана небеска тела, а потом симулира кретање кроз свемир тако
